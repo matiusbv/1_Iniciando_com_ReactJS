@@ -1,8 +1,11 @@
 import { Post } from "./Post"
+import { Header } from "./components/Header"
+import './styles.css'
 
 function App() {
   return (
     <>
+      <Header />
       <h1>Hello world</h1>
       <Post 
         author="Márcio Bezerra"
