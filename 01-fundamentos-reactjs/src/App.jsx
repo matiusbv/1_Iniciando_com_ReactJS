@@ -1,13 +1,17 @@
 import { Post } from "./Post"
 import { Header } from "./components/Header"
 import './global.css'
+import styles from './App.module.css'
+import { Sidebar } from "./components/Sidebar"
 
 function App() {
   return (
     <>
       <Header />
-      <h1>Hello world</h1>
-      <Post 
+  <div className={styles.wrapper}>
+    <Sidebar />
+    <main>
+    <Post 
         author="Márcio Bezerra"
         content="conteúdo do autor Márcio"
       />
@@ -16,6 +20,8 @@ function App() {
         author="Diego Fernandes"
         content="Conteúdo do autor Diego"
       />
+    </main>
+  </div>
     
     </>
   )
