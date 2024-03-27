@@ -67,11 +67,13 @@
     line-height: 1.6;
 }
 
+
+
 .commentForm {
     width: 100%;
     margin-top: 1.5rem;
     padding-top: 1.5rem;
-    border-top: 1px solid var(--green-600);
+    border-top: 1px solid var(--gray-600);
 }
 
 .commentForm > strong {
@@ -118,4 +120,8 @@
 
   .commentForm button[type="submit"]:hover {
     background: var(--green-300);
+}
+
+.commentList {
+    margin-top: 2rem;
 }
